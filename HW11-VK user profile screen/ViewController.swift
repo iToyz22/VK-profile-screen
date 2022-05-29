@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var button: UIButton!
+    
+    @IBOutlet weak var avatar: UIImageView!
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
+        button.layer.cornerRadius = button.frame.size.height / 2
+            }
 
 }
 
